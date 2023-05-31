@@ -54,7 +54,7 @@ a {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 15s linear infinite;
+  animation: marquee 65s linear infinite;
   width: 180%;
 }
 
@@ -63,12 +63,12 @@ a {
 }
 
 @keyframes marquee {
-  from {
+  0% {
     transform: translateX(0);
   }
 
-  to {
-    transform: translateX(-50%);
+  100% {
+    transform: translateX(-90%);
   }
 }
 
@@ -78,13 +78,20 @@ span.text-red {
 }
 
 .logo {
-  color: gray;
-  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
 
+.logo:hover,
+.logo.active {
+  color: #7efc08;
 }
 
 .cart-icon {
-  font-size: 25px;
+  font-size: 30px;
   color: gray;
   cursor: pointer;
   position: relative;
@@ -100,9 +107,9 @@ span.text-red {
 .cart-item-qty {
   position: absolute;
   right: -8px;
-  font-size: 12px;
+  font-size: 14px;
   color: #eee;
-  background-color: #f02d34;
+  background-color: #713737;
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -115,7 +122,7 @@ span.text-red {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 35px;
   margin-top: 20px;
   width: 100%;
 }
@@ -177,7 +184,7 @@ span.text-red {
 .hero-banner-container button {
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
+  background-color: #d59112;
   color: white;
   border: none;
   margin-top: 40px;
@@ -247,13 +254,13 @@ span.text-red {
 }
 
 .products-heading p {
-  font-size: 16px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #2f1e1e;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -376,7 +383,7 @@ span.text-red {
 
 .cart-num-items {
   margin-left: 10px;
-  color: #f02d34;
+  color: #12d53c;
 }
 
 .empty-cart {
@@ -475,7 +482,7 @@ span.text-red {
   margin-top: 10px;
   margin-top: 40px;
   text-transform: uppercase;
-  background-color: #f02d34;
+  background-color: #d59112;
   color: #fff;
   cursor: pointer;
   transform: scale(1, 1);
@@ -505,13 +512,16 @@ span.text-red {
   transition: .3s ease-in-out;
 }
 
-.product-detail-image:hover {
-  background-color: #f02d34;
 
+.product-detail-image:hover {
+  background-color: #f07e2d;
 }
+
 
 .small-images-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
   margin-top: 20px;
 }
@@ -525,11 +535,11 @@ span.text-red {
 }
 
 .selected-image {
-  background-color: #f02d34;
+  background-color: #f0d62d;
 }
 
 .reviews {
-  color: #f02d34;
+  color: #ffdd03;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -553,7 +563,7 @@ span.text-red {
   font-weight: 700;
   font-size: 26px;
   margin-top: 30px;
-  color: #f02d34;
+  color: #ffdd03;
 }
 
 .price .old-price,
@@ -577,12 +587,12 @@ span.text-red {
 
 .buttons .add-to-cart {
   padding: 10px 20px;
-  border: 1px solid #f02d34;
+  border: 1px solid #000000;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   background-color: white;
-  color: #f02d34;
+  color: #000000;
   cursor: pointer;
   width: 200px;
   transform: scale(1, 1);
@@ -597,8 +607,8 @@ span.text-red {
   width: 200px;
 
   padding: 10px 20px;
-  background-color: #f02d34;
-  color: white;
+  background-color: rgb(246, 199, 11);
+  color: #000000;
   border: none;
   margin-top: 40px;
   font-size: 18px;
