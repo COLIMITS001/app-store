@@ -37,3 +37,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 "# app-store" 
+
+
+TEST-DEMO
+4242 4242 4242 4242-card number
+04/24-MM/YY   424-CVC
+"YOUR NAME"-NAME
+https://app-store-psi.vercel.app/
