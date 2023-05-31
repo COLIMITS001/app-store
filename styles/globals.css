@@ -25,6 +25,10 @@ a {
 
 }
 
+.address {
+  font-weight: bold;
+}
+
 .layout {
   padding: 10px;
 }
@@ -32,7 +36,7 @@ a {
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  margin: 6px 18px;
+  margin: 0px 36px 0px 36px;
   position: relative;
 }
 
@@ -80,6 +84,8 @@ span.text-red {
 .logo {
   color: rgb(0, 0, 0);
   font-size: 22px;
+  font-weight: bold;
+  margin-left: 35px;
   text-transform: uppercase;
   text-decoration: none;
   transition: 0.3s ease;
@@ -87,12 +93,12 @@ span.text-red {
 
 .logo:hover,
 .logo.active {
-  color: #7efc08;
+  color: #74de10;
 }
 
 .cart-icon {
-  font-size: 30px;
-  color: gray;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   position: relative;
   transition: transform .4s ease;
@@ -106,15 +112,15 @@ span.text-red {
 
 .cart-item-qty {
   position: absolute;
-  right: -8px;
-  font-size: 14px;
+  right: -12px;
+  font-size: 18px;
   color: #eee;
-  background-color: #713737;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
+  background-color: #ff0000;
+  width: 23px;
+  height: 25px;
+  border-radius: 60%;
   text-align: center;
-  font-weight: 600;
+  font-weight: 650;
 
 }
 
@@ -207,6 +213,7 @@ span.text-red {
 }
 
 .hero-banner-image {
+  display: flex;
   position: absolute;
   top: 0%;
   right: 20%;
@@ -298,11 +305,12 @@ span.text-red {
 }
 
 .footer-banner-image {
+  display: flex;
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+  top: 0%;
+  right: 30%;
+  width: 450px;
+  height: 450px;
 }
 
 .banner-desc .right {
@@ -514,7 +522,7 @@ span.text-red {
 
 
 .product-detail-image:hover {
-  background-color: #f07e2d;
+  background-color: #f0d62d;
 }
 
 
@@ -529,12 +537,22 @@ span.text-red {
 .small-image {
   border-radius: 8px;
   background-color: #ebebeb;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.small-image:hover {
+  transform: scale(1.1, 1.1)
 }
 
 .selected-image {
+  background-color: #f0d62d;
+}
+
+.small-image:hover {
   background-color: #f0d62d;
 }
 
@@ -619,6 +637,52 @@ span.text-red {
 }
 
 .buttons .buy-now:hover {
+  transform: scale(1.1, 1.1)
+}
+
+.home-btn {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  background-color: #000000;
+  color: #fffb00;
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.home-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.proceed-btn {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  background-color: #08f700;
+  color: #000000;
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.proceed-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.buttons .home-btn:hover {
   transform: scale(1.1, 1.1)
 }
 

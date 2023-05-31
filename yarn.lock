@@ -1240,6 +1240,72 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@krakenjs/beaver-logger@^5.0.0":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@krakenjs/beaver-logger/-/beaver-logger-5.2.2.tgz#a06907804788a3aac03cbe6b21cdabc2ce8880ef"
+  integrity sha512-ywVCf3efhd81nmUmIm2nl73Y6HOX3Tbtx8x94YPBPIv/4tyP3mryxsyJq9J8o5im+jLAw30NZ4RxdoHwQUFEHA==
+  dependencies:
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/cross-domain-utils" "^3.0.0"
+    "@krakenjs/zalgo-promise" "^2.0.0"
+
+"@krakenjs/belter@^2.0.0":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@krakenjs/belter/-/belter-2.2.2.tgz#aad54eb770af41872f2b29a3d3720d4b68d7e170"
+  integrity sha512-3FRW6u6HXkLvyYYXkk9Rvtf7mfCDDXf5BspPd13zcj1l1z+bb01s+7mWG/LfUDMY4fuGimF70GIPBKoPIxk+hg==
+  dependencies:
+    "@krakenjs/cross-domain-safe-weakmap" "^2.0.2"
+    "@krakenjs/cross-domain-utils" "^3.0.2"
+    "@krakenjs/zalgo-promise" "^2.0.0"
+
+"@krakenjs/cross-domain-safe-weakmap@^2.0.0", "@krakenjs/cross-domain-safe-weakmap@^2.0.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@krakenjs/cross-domain-safe-weakmap/-/cross-domain-safe-weakmap-2.0.3.tgz#eb607534c14bd8bc2f3456d993618361fb38489f"
+  integrity sha512-WsGi6347ddZ9Y0HoBuTYCX2QTAHxYVaUs2T/0n8XJKXZOEJPnLWlW6eYAOgyyuUsYusWMAkYv00fvfxAlTU8/w==
+  dependencies:
+    "@krakenjs/cross-domain-utils" "^3.0.2"
+
+"@krakenjs/cross-domain-utils@^3.0.0", "@krakenjs/cross-domain-utils@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@krakenjs/cross-domain-utils/-/cross-domain-utils-3.0.2.tgz#cbbd3323e65e831debc351549c0b8972df0382d5"
+  integrity sha512-uNTQrAevzKtOu13UZzamCR6rKX2vpdb6g/gVXMJVSMvAlYhxBN6mOD6U56DmSdBJDKvLSYZbIYUkBh2inDyIXQ==
+
+"@krakenjs/jsx-pragmatic@^3", "@krakenjs/jsx-pragmatic@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@krakenjs/jsx-pragmatic/-/jsx-pragmatic-3.0.0.tgz#26a78150681504745782fff686765757b3282e13"
+  integrity sha512-mCFV7cuT9bhOip42nvoG5REjzKGGQrJfKbtcjBvF6yFHPpuQK2+tDKtCB6T3IJgFNaFVkCEuSmFTUYvvSpbNcA==
+
+"@krakenjs/post-robot@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@krakenjs/post-robot/-/post-robot-11.0.0.tgz#98a285b70db2bac2c58f297cd8403a4cc2518a6a"
+  integrity sha512-t+IlQCrwzLa1IWxEvdfr9r/xgOmQoykVQ1rtEukw1LYVHPU3p3eDDC5djODE7ErWYDbkYncrHcbDEh6Gc/G9wQ==
+  dependencies:
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/cross-domain-safe-weakmap" "^2.0.0"
+    "@krakenjs/cross-domain-utils" "^3.0.0"
+    "@krakenjs/universal-serialize" "^2.0.0"
+    "@krakenjs/zalgo-promise" "^2.0.0"
+
+"@krakenjs/universal-serialize@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@krakenjs/universal-serialize/-/universal-serialize-2.0.0.tgz#c4a508ec53f6b412b1032e78c570b87f4f2c7763"
+  integrity sha512-Qd9W2iaP5lMTzXPETomBDAaqbgHYkEjJKcQ+3eNC8EwWGCHFk3/+uQ41B+QYfSZqRoz8AEjdNHOps7nDEypAyw==
+
+"@krakenjs/zalgo-promise@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@krakenjs/zalgo-promise/-/zalgo-promise-2.0.1.tgz#36b4225a566f0a0903a8d771a11a9efc131c6987"
+  integrity sha512-n30eknZjD7z8/joFqjI8FIDZ0yJPZHcQBce1B3tAumwNZL0C42Ta/w37MfthxHV61JHEFGfy7b727h/kzagJDA==
+
+"@krakenjs/zoid@^10.0.0":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@krakenjs/zoid/-/zoid-10.2.3.tgz#3807d1e17d17b111defa3239d74d1370fe08c0cf"
+  integrity sha512-Xrn80Uers20m3X7BtfuaP1nH1P3f0JfAU1oe1NBDcd9Fc0D9z34JnJNiKdAjTi1NTQGfBoM3Iegw/uGgJ1tnsQ==
+  dependencies:
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/cross-domain-utils" "^3.0.0"
+    "@krakenjs/post-robot" "^11.0.0"
+    "@krakenjs/zalgo-promise" "^2.0.0"
+
 "@next/env@13.4.4":
   version "13.4.4"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.4.4.tgz#46b620f6bef97fe67a1566bf570dbb791d40c50a"
@@ -1317,6 +1383,103 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@paypal/checkout-components@^5.0.269":
+  version "5.0.269"
+  resolved "https://registry.yarnpkg.com/@paypal/checkout-components/-/checkout-components-5.0.269.tgz#bbf618839af0499c180b3c8ace602643b3282f47"
+  integrity sha512-RHATlkNPHx0OZOURdgKabeq+qoLgN+PJFeBDGjDf8l7pOBcvWRtXyS95wQWW6FRMIpY2VJeDe+3vyZXY3U54iQ==
+  dependencies:
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/cross-domain-utils" "^3.0.0"
+    "@krakenjs/jsx-pragmatic" "^3"
+    "@krakenjs/post-robot" "^11.0.0"
+    "@krakenjs/zalgo-promise" "^2.0.0"
+    "@krakenjs/zoid" "^10.0.0"
+    "@paypal/common-components" "^1.0.35"
+    "@paypal/funding-components" "^1.0.31"
+    "@paypal/sdk-client" "^4.0.166"
+    "@paypal/sdk-constants" "^1.0.128"
+    "@paypal/sdk-logos" "^2.2.6"
+
+"@paypal/checkout-server-sdk@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@paypal/checkout-server-sdk/-/checkout-server-sdk-1.0.3.tgz#1de69f5c1af8d74ec0e9e26be9ed225d98a1e453"
+  integrity sha512-UEdq8akEdMz0Vs4qoQFU2gMp8PpyE/HKyMwiZuK4vIWUKl8jfd1fWKjQN5cDFm9NkFUIp5U7h++rdMOVj9WMNA==
+  dependencies:
+    "@paypal/paypalhttp" "^1.0.1"
+
+"@paypal/common-components@^1.0.35":
+  version "1.0.36"
+  resolved "https://registry.yarnpkg.com/@paypal/common-components/-/common-components-1.0.36.tgz#ed68de0d20c443b3814d09924582ac6ece41b03e"
+  integrity sha512-nlJrIlcW6wJHn/k9IPeRyFOqqf9+7Nnbd9XXjOuBEIxwVdDg6ACiTmChGtYAKO0rK7OlHa86hTUFo/ypi4R3/Q==
+  dependencies:
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/jsx-pragmatic" "^3.0.0"
+    "@krakenjs/post-robot" "^11.0.0"
+    "@krakenjs/zalgo-promise" "^2.0.0"
+    "@krakenjs/zoid" "^10.0.0"
+    "@paypal/sdk-client" "^4.0.166"
+    "@paypal/sdk-constants" "^1.0.128"
+    "@paypal/sdk-logos" "^2.1.0"
+
+"@paypal/funding-components@^1.0.31":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@paypal/funding-components/-/funding-components-1.0.32.tgz#fa6433c3d39e4450d3e85f1a9aeb7fae5e0b14bc"
+  integrity sha512-icQUO4N5Qm5CeHx1i+wR8P7wP/DmyYfoHX2RpJCfJEvv9fIHkZ4hHJs+41ltpjSLRA2cxKQecJk/7wuB8hBwEQ==
+  dependencies:
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/cross-domain-utils" "^3.0.0"
+    "@paypal/sdk-client" "^4.0.166"
+    "@paypal/sdk-constants" "^1.0.128"
+
+"@paypal/paypal-js@^5.1.6":
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/@paypal/paypal-js/-/paypal-js-5.1.6.tgz#8ec59f4cc016addb3de41511f70950fd0359ffdb"
+  integrity sha512-1upF06pv0AUtTftRVSra44p8ibqGa3ruKLArvdhpZla25zcrND7R+nDUIMrJ0iteVYZowhujZStFs6NoruExfg==
+  dependencies:
+    promise-polyfill "^8.3.0"
+
+"@paypal/paypalhttp@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@paypal/paypalhttp/-/paypalhttp-1.0.1.tgz#406e337bf86cec7ea58c42eb167eb9b57ed88110"
+  integrity sha512-DC7AHxTT7drF6dUi3YaFdPVuT15sIkpD5H2eHmdtFgxM4UanS1o1ZDfMhR9mpxd8o+X6pz2r+EZVRRq+n1cssQ==
+
+"@paypal/react-paypal-js@^7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@paypal/react-paypal-js/-/react-paypal-js-7.8.3.tgz#a5ca30a6db6a16776a447976c168f6b7438b1fb9"
+  integrity sha512-7sD5JFA0IH9kysyGFv5DTmtPn54vLWZ0DLhdjUvsjqZnoEs11mJJJlTsTA7MkIO3jBAJOWlfoA4wLYzmy68C4g==
+  dependencies:
+    "@paypal/paypal-js" "^5.1.6"
+    "@paypal/sdk-constants" "^1.0.122"
+
+"@paypal/sdk-client@^4.0.166":
+  version "4.0.171"
+  resolved "https://registry.yarnpkg.com/@paypal/sdk-client/-/sdk-client-4.0.171.tgz#1d6a7e0f376bf4381927a80d377bc3d8c2b1c78c"
+  integrity sha512-UUroaJTy901G8z3XHYqWB62MXaYAQvkyxMUDewds7jj1TDiiA5tcMLB+5Tp5qF2EG5yFhRVz8vwRshBxR74Yhw==
+  dependencies:
+    "@krakenjs/beaver-logger" "^5.0.0"
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/cross-domain-utils" "^3.0.2"
+    "@krakenjs/jsx-pragmatic" "^3.0.0"
+    "@krakenjs/zalgo-promise" "^2.0.0"
+    "@paypal/sdk-constants" "^1.0.94"
+    bowser "^2.0.0"
+
+"@paypal/sdk-constants@^1.0.122", "@paypal/sdk-constants@^1.0.128", "@paypal/sdk-constants@^1.0.94":
+  version "1.0.130"
+  resolved "https://registry.yarnpkg.com/@paypal/sdk-constants/-/sdk-constants-1.0.130.tgz#f1da2a7b1999b5436c6aa91d163bda36d702b883"
+  integrity sha512-hrh1SyZy+qiBA+h/EYWjTZ7QiBcRgDiEfhHCxP47fiBO8wE9w+DiEfHm747vFQomvHg6AyDxhyGXjnuaGAW31A==
+  dependencies:
+    hi-base32 "^0.5.0"
+
+"@paypal/sdk-logos@^2.1.0", "@paypal/sdk-logos@^2.2.6":
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/@paypal/sdk-logos/-/sdk-logos-2.2.7.tgz#8e5da637a48e8e9ae4c577106b5d985533834277"
+  integrity sha512-+IbDmTpVkQJgkRpe6ZmCAWiNN1iYcN4mi8eMQOPRzecqsvxrDsgvhTghynUmeEZw/otFICU2qtiPV3vQaw+znQ==
+  dependencies:
+    "@krakenjs/belter" "^2.0.0"
+    "@krakenjs/jsx-pragmatic" "^3.0.0"
+    "@paypal/sdk-constants" "^1.0.128"
 
 "@pkgr/utils@^2.3.1":
   version "2.4.1"
@@ -1758,6 +1921,11 @@ body-parser@^1.18.2:
     type-is "~1.6.18"
     unpipe "1.0.0"
 
+bowser@^2.0.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.11.0.tgz#5ca3c35757a7aa5771500c70a73a9f91ef420a8f"
+  integrity sha512-AlcaJBi/pqqJBIQ8U9Mcpc9i8Aqxn88Skv5d+xBX006BY5u8N3mGLHa5Lgppa7L/HfwgwLgZ6NYs+Ag6uUmJRA==
+
 bplist-parser@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/bplist-parser/-/bplist-parser-0.2.0.tgz#43a9d183e5bf9d545200ceac3e712f79ebbe8d0e"
@@ -1796,6 +1964,11 @@ browserslist@^4.21.3, browserslist@^4.21.5:
     electron-to-chromium "^1.4.284"
     node-releases "^2.0.8"
     update-browserslist-db "^1.0.10"
+
+buffer-crc32@^0.2.3:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
+  integrity sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==
 
 bundle-name@^3.0.0:
   version "3.0.0"
@@ -2898,6 +3071,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hi-base32@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/hi-base32/-/hi-base32-0.5.1.tgz#1279f2ddae2673219ea5870c2121d2a33132857e"
+  integrity sha512-EmBBpvdYh/4XxsnUybsPag6VikPYnN30td+vQk+GI3qpahVEG9+gTkG0aXVxTjBqQ5T6ijbWIu77O+C5WFWsnA==
+
 http-errors@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-2.0.0.tgz#b7774a1486ef73cf7667ac9ae0858c012c57b9d3"
@@ -3718,6 +3896,14 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+paypal-rest-sdk@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/paypal-rest-sdk/-/paypal-rest-sdk-1.8.1.tgz#5023fd42f43da628d18cc00d6bd566eacba74528"
+  integrity sha512-Trj2GuPn10GqpICAxQh5wjxuDT7rq7DMOkvyatz05wI5xPGmqXN7UC0WfDSF9WSBs4YdcWZP0g+nY+sOdaFggw==
+  dependencies:
+    buffer-crc32 "^0.2.3"
+    semver "^5.0.3"
+
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
@@ -3761,6 +3947,11 @@ progress-stream@^2.0.0:
   dependencies:
     speedometer "~1.0.0"
     through2 "~2.0.3"
+
+promise-polyfill@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.3.0.tgz#9284810268138d103807b11f4e23d5e945a4db63"
+  integrity sha512-H5oELycFml5yto/atYqmjyigJoAo3+OXwolYiH7OfQuYlAqhxNvTfiNMbV9hsC6Yp83yE5r2KTVmtrG6R9i6Pg==
 
 prop-types@^15.8.1:
   version "15.8.1"
@@ -4031,6 +4222,11 @@ semver@6.1.1:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.1.tgz#53f53da9b30b2103cd4f15eab3a18ecbcb210c9b"
   integrity sha512-rWYq2e5iYW+fFe/oPPtYJxYgjBm8sC4rmoGdUOgBB7VnwKt6HrL793l2voH1UlsyYZpJ4g0wfjnTEO1s1NP2eQ==
+
+semver@^5.0.3:
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
+  integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
 semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   version "6.3.0"
