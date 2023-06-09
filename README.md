@@ -11,6 +11,22 @@ yarn dev
 # or
 pnpm dev
 ```
+## Deployed on Vercel
+
+https://app-store-psi.vercel.app/ -app
+
+TEST-DEMO DATA
+4242 4242 4242 4242-card number
+04/24-MM/YY   424-CVC
+"YOUR NAME"-NAME
+
+## Deployed on Sanity Project
+https://myecommercestore.sanity.studio/ -sanity backend
+
+The easiest way to deploy Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+"# app-store" 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -22,8 +38,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -31,16 +45,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# app-store" 
-
-
-TEST-DEMO
-4242 4242 4242 4242-card number
-04/24-MM/YY   424-CVC
-"YOUR NAME"-NAME
-https://app-store-psi.vercel.app/
